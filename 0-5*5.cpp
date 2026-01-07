@@ -1,0 +1,12 @@
+#include <iostream>
+using std::cout, std::endl;
+
+int main(){
+    for(int i=0; i<5; i++){
+        for(int j=0; j<5; j++){
+            cout<<"0 ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
